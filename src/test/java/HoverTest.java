@@ -32,7 +32,7 @@ public class HoverTest extends BaseTest {
             WebElement userPage = driver.findElement(By.tagName("h1"));
             Assert.assertFalse(userPage.getText().contains("Not Found"),
                     "URL is broken. Page not found");
-            navigate(); // Return to the original page after oprning a user profile page
+            navigate(); // Return to the original page after opening a user profile page
             profiles = driver.findElements(By.className("figure"));// to refresh DOM
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         }
