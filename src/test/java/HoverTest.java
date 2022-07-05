@@ -34,7 +34,6 @@ public class HoverTest extends BaseTest {
                     "URL is broken. Page not found");
             navigate(); // Return to the original page after opening a user profile page
             profiles = driver.findElements(By.className("figure"));// to refresh DOM
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         }
     }
 

@@ -31,8 +31,6 @@ public class SortableDataTablesTest extends BaseTest {
     public void sortableTablesTest() {
         sortTable(2);
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
         Assert.assertEquals(getValueFromCell(2, 1), "Doe",
                 "Incorrect value in the cell (2, 1)");
         Assert.assertEquals(getValueFromCell(4, 3), "tconway@earthlink.net",

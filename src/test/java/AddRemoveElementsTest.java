@@ -34,7 +34,6 @@ public class AddRemoveElementsTest extends BaseTest {
         final int EXPECTED_NUMBER_OF_ELEMENTS = 1;
         addElement();
         addElement();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         deleteElement();
         Assert.assertEquals(getElementsCount(), EXPECTED_NUMBER_OF_ELEMENTS,
                 "Number of added elements is different from the expected value");
