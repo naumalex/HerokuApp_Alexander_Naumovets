@@ -1,0 +1,26 @@
+.test_hyperlink {
+    color: green;
+}
+
+td {
+    text-align: center;
+}
+
+.last_row {
+    height: 50px;
+    font-size: 20px;
+}
+
+.test_button {
+    width: 100px;
+    background-color: blue;
+    border: 0;
+    color: white;
+    height: 30px;
+}
+
+select {
+    width: 100px;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
